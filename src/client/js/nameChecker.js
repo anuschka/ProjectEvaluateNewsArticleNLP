@@ -5,8 +5,6 @@ function checkForName(inputText) {
     } else {
         return false
     }
-
-  
 }
 
 function onBlur(){}
