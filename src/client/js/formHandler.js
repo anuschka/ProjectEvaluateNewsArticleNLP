@@ -7,13 +7,19 @@ function handleSubmit(event) {
         alert("The text field cannot be empty!")
     } else {    
     console.log("::: Form Submitted :::")
+    handleFetch();
+    }
+}
+
+function handleFetch(){
     fetch('http://localhost:8081/test')
         .then(res => res.json())
         .then(function(res) {
             document.getElementById('result_polarity').innerHTML = res.score_tag;
             document.getElementById('result_subjectivity').innerHTML = res.subjectivity;
+            console.log("::: Received score_tag :::", res.score_tag);
+            console.log("::: Received subjectivity :::", res.subjectivity);
         })
-    }
 }
 
-export { handleSubmit }
+export { handleSubmit, handleFetch }

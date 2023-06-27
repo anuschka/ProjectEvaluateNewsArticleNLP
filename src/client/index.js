@@ -1,5 +1,5 @@
 import { checkForName } from './js/nameChecker'
-import { handleSubmit } from './js/formHandler'
+import { handleSubmit, handleFetch } from './js/formHandler'
 import { onBlur } from './js/nameChecker'
 
 import './styles/resets.scss'
@@ -16,5 +16,6 @@ console.log("CHANGE!!");
 export {
     checkForName,
     handleSubmit,
+    handleFetch,
     onBlur
 }
