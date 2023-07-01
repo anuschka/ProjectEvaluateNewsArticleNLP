@@ -7,6 +7,9 @@ For this Front End Nanodegree project we built a web tool that allows users to r
 The user accesses the site and is presented with a simple form. The form has one input field. This is where the user enters the URL
 for the article and clicks submit. The user receives Polarity and Subjectivity as output. Empty input field is not allowed.
 
+# Show content offline
+The application uses service workers to show the content when offline.
+
 # Installation
 
 ## Clone the repo:
