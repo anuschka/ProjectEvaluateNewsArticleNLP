@@ -4,6 +4,9 @@ function handleSubmit(event) {
     // check what text was put into the form field
     let formText = document.getElementById('name').value.trim()
     if (Client.checkForName(formText)) {
+        // reset the result field when imput is emtpy
+        document.getElementById('result_polarity').innerHTML = "";
+        document.getElementById('result_subjectivity').innerHTML = "";
         alert("The text field cannot be empty!")
     } else {    
     console.log("::: Form Submitted :::")
