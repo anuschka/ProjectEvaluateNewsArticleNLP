@@ -22,10 +22,10 @@ Once you clone, you will need to install everything.
 
 `npm install`
 
-## Prod instance:
+## Build the prod instance:
 `npm run build-prod` 
 
-## Dev instance:
+## Build the dev instance:
 `npm run build-dev`
 
 ## Start the server:
