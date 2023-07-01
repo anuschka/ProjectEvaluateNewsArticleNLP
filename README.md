@@ -16,6 +16,7 @@ To install the web application locally one needs to have Node Webserver installe
 Once you clone, you will need to install everything.
 
 `cd fend-evaluate-news-article-nlp`
+
 `npm install`
 
 ## Prod instance:
@@ -30,5 +31,6 @@ Once you clone, you will need to install everything.
 ## Run tests:
 `npm test`
 
-[Prod URL: ](http://localhost:8081)
-[Dev URL: ](http://localhost:8080)
+## Access the web application:
+Prod URL: http://localhost:8081
+Dev URL: http://localhost:8080
